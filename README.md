@@ -413,7 +413,7 @@ border: 1px solid gray;
                             $('.scanner').removeClass('anim');
                             $('.scanner').hide();
                         }).catch((err) => {
-                            console.error(err)
+                            console.error(err);
                             document.getElementById('result').textContent = err;
                             $('.scanner').removeClass('anim');
                             $('.scanner').show();
