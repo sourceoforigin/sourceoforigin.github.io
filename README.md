@@ -9,8 +9,8 @@
     <title>Source of origin</title>
 
     <link rel="stylesheet" rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-    <link rel="stylesheet" rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" href="../static/css/normalize.css">
-    <link rel="stylesheet" rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" href="../static/css/milligram.min.css">
+    <link rel="stylesheet" rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" href="normalize.css">
+    <link rel="stylesheet" rel="preload" as="style" onload="this.rel='stylesheet';this.onload=null" href="milligram.min.css">
     <style>
         html,body{
             background-color: #000;
@@ -158,7 +158,7 @@ border: 1px solid gray;
 
     </main>
 
-    <script type="text/javascript" src="../static/js/index.min.js"></script>
+    <script type="text/javascript" src="index.min.js"></script>
     <script
   src="https://code.jquery.com/jquery-3.5.1.min.js"
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
