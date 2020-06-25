@@ -423,6 +423,7 @@ border: 1px solid gray;
                             document.getElementById('result').textContent = coo;
                             $('.scanner').removeClass('anim');
                             $('.scanner').hide();
+			    ga('send', 'event', 'Scan', 'Test', 'CP');
                         }).catch((err) => {
                             console.error(err);
                             document.getElementById('result').textContent = err;
